@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
        if (!super.onOptionsItemSelected(item)) {
           when (item.itemId) {
               android.R.id.home -> navHostFragment?.navController?.popBackStack()
+              else -> return false
           }
        }
         return true

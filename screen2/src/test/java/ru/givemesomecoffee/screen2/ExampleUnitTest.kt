@@ -1,4 +1,4 @@
-package ru.givemesomecoffee.bs_dl
+package ru.givemesomecoffee.screen2
 
 import org.junit.Test
 

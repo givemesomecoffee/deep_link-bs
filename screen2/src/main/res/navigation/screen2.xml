@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/screen2"
+    app:startDestination="@id/Screen2Fragment">
+
+    <fragment
+        android:id="@+id/Screen2Fragment"
+        android:name="ru.givemesomecoffee.screen2.Screen2Fragment"
+        android:label="Screen2Fragment">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://screen2" />
+    </fragment>
+</navigation>
